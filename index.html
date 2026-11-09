@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PatientScope</title>
+</head>
+<body>
+
+    <h1>PatientScope</h1>
+    <h3>Patient Data Breach Scoping System</h3>
+
+    <hr>
+
+    <h2>Upload Patient Data</h2>
+
+    <form action="/analyze" method="POST" enctype="multipart/form-data">
+
+        <label>Select Patient CSV File:</label>
+        <br><br>
+
+        <input type="file" name="file" accept=".csv" required>
+
+        <br><br>
+
+        <button type="submit">Analyze Data</button>
+
+    </form>
+
+</body>
+</html>
+
