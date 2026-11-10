@@ -1,0 +1,6 @@
+Student Details
+
+Name: Esther
+Department: Cyber Security
+College: Bapatla Engineering College
+Experiment: Git Branching and Merging
